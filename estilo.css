@@ -4,10 +4,28 @@ body {
 
 td,th {
   padding: 0.5em;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.419);
 }
 
 table {
-margin: auto;
+  margin: 10px;
+}
 
+div {
+  box-shadow: 10px;
+}
+
+p {
+font-style:italic;
+font-size: large;
+}
+
+header {
+  background: url(images/DSC_0501.JPG) no-repeat center;
+  height: 200px 
+
+}
+header {
+
+  max-block-size: 3600;
 }
