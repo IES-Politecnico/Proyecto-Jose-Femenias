@@ -8,8 +8,9 @@ td,th {
 }
 
 table {
-  margin: 10px;
+  margin: auto;
 }
+
 
 div {
   box-shadow: 10px;
@@ -20,12 +21,16 @@ font-style:italic;
 font-size: large;
 }
 
-header {
-  background: url(images/DSC_0501.JPG) no-repeat center;
-  height: 200px 
+.box {
 
+background-image: url(images/DSC_0501c.jpg);
+padding: 100px;
+margin: 25px;
+background-position-y: 25px;
+background-position-x: center;
+background-size: cover;
+background-position: bottom;
 }
-header {
 
-  max-block-size: 3600;
-}
+
+
