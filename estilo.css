@@ -7,10 +7,24 @@ td,th {
   border: 1px solid rgba(0, 0, 0, 0.419);
 }
 
-table {
-  margin: auto;
+.manolo {
+border:double;
+width: 100%;
+max-width: 400px;
+max-height: 200px;
+height: 100%;
 }
 
+table {
+  margin: auto;
+ size: auto;
+}
+
+.labisi {
+  width:200px;
+  height:300px;
+  float: right; margin-right: 10px; margin-left: 10px; margin-bottom: 10px;margin-top: 10px;
+}
 
 div {
   box-shadow: 10px;
@@ -22,15 +36,30 @@ font-size: large;
 }
 
 .box {
-
 background-image: url(images/DSC_0501c.jpg);
 padding: 100px;
 margin: 25px;
-background-position-y: 25px;
+background-position-y: none;
 background-position-x: center;
 background-size: cover;
 background-position: bottom;
 }
 
+.sail {
+background-color: rgb(204, 93, 33);
+margin: 10px;
+}
+
+.sentro {
+text-align: center;
+}
+
+.cuadrao {
+  list-style-type:square;
+}
 
 
+.subrayado {
+
+  background-color: rgba(233, 195, 145, 0.774);
+}
