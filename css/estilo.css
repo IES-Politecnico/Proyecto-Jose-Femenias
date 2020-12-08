@@ -1,10 +1,8 @@
 body {
-  background:rgb(207, 206, 192);
+ background-color:grey;
 }
 
-
-
-td{
+td,th{
   padding:0.5em;
 border: 1px double black;
 }
@@ -39,19 +37,53 @@ font-size: large;
 }
 
 .box {
+  background-image: url(../images/DSC_0501c.jpg);
+  padding: 100px;
+  margin: 25px;
+  background-position-y: none;
+  background-position-x: center;
+  background-size: cover;
+  background-position: bottom;
+}
 
-padding: 100px;
-background-image: url(/images/DSC_0501c.jpg);
-margin: 25px;
-background-position-y: none;
-background-position-x: center;
-background-size: cover;
-background-position: bottom;
+.ci{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.ci2{
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.partescamara{
+max-width: 352px;
+max-height: 351px;
+float: right;
+}
+
+.llou{
+margin-bottom: 10px;
+
 }
 
 .sail {
-background-color: rgb(204, 93, 33);
-margin: 10px;
+background-color: rgb(181, 204, 33);
+margin: 70px;
+padding: 50px;
+text-align: center;
+}
+
+aside{
+width: 20%;
+height: 400px;
+float: right;
+}
+
+article,section{
+width: 70%;
+
 }
 
 .sentro {
@@ -66,7 +98,6 @@ text-align: center;
 .subrayado {
   background-color: rgba(233, 195, 145, 0.774);
 }
-
 
 
 .ujmm {
