@@ -38,7 +38,7 @@ font-size: large;
 
 .box {
   background-image: url(../images/DSC_0501c.jpg);
-  padding: 100px;
+  padding: 150px;
   margin: 25px;
   background-position-y: none;
   background-position-x: center;
@@ -73,14 +73,9 @@ background-color: rgb(181, 204, 33);
 margin: 70px;
 padding: 50px;
 text-align: center;
+border: 1px solid #000000;
+border-radius: 2px;
 }
-
-aside{
-width: 20%;
-height: 400px;
-float: right;
-}
-
 
 .sentro {
 text-align: center;
@@ -90,13 +85,66 @@ text-align: center;
   list-style-type:square;
 }
 
-
 .subrayado {
   background-color: rgba(233, 195, 145, 0.774);
 }
 
-
 .ujmm {
-max-width: 421px; ;
+max-width: 421px; 
 max-height: 200px;
+min-width:217px ;
+min-height: 100px;
+width: 217px;
+height: 100px;
 }
+
+footer{
+  text-align: center;
+  background-color: khaki;
+  padding: 10px;
+  }
+
+.concepts{
+margin-left: 20px;
+margin-right: 20px;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.conseptoh{
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+.list{
+margin-left: 100px;
+align-content: center;
+}
+
+  .botone{
+      display: inline-block;
+      text-align: center;
+      padding: 5px;
+      width:200px;
+      border: 1px solid #111111;
+      border-radius: 5px;
+      color: #ffffff;
+      font-size: larger;
+      transition: 0.4s;
+    }
+
+  .botone:hover{
+    background-color: rgba(0, 0, 0, 0.446);
+    transition: 0.4s;
+    transition-delay: 0.2s;
+    transition-timing-function: ease;
+    border: 1px solid #ffffff;
+    padding: 15px;
+  }
+
+  nav ul{
+    list-style: none;
+    background-color: rgb(67, 131, 214);
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+  }
