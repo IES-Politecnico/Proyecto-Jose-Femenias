@@ -1,3 +1,4 @@
+
 body {
  background-color:grey;
 }
@@ -64,6 +65,7 @@ font-size: large;
   margin-right: 25px;
   margin-bottom:215px;
 }
+
 
 .partescamara{
 max-width: 352px;
@@ -218,4 +220,14 @@ margin-top: 40px;
  .poensima{
   position: relative;
   z-index: 1;
+ }
+
+.derecha{
+max-width: 421px; 
+max-height: 200px;
+min-width:217px ;
+min-height: 100px;
+width: 100px;
+height: 217px;
+float: right;
  }
