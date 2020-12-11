@@ -44,6 +44,7 @@ font-size: large;
   background-position-x: center;
   background-size: cover;
   background-position: bottom;
+  border-radius: 5px;
 }
 
 .ci{
@@ -72,7 +73,6 @@ float: right;
 
 .llou{
 margin-bottom: 10px;
-
 }
 
 .sail {
@@ -108,6 +108,7 @@ min-width:217px ;
 min-height: 100px;
 width: 217px;
 height: 100px;
+float: right;
 }
 
 footer{
@@ -163,8 +164,7 @@ margin-top: 40px;
     padding: 15px;
   }
 
-  nav ul{
-    list-style: none;
+  nav {
     background-color: rgb(67, 131, 214);
     text-align: center;
     padding: 0;
@@ -180,14 +180,14 @@ margin-top: 40px;
   }
 
   .mediodia{
-    background-color:   rgba(251, 253, 99, 0.507);
+    background-color:   rgba(252, 253, 153, 0.507);
     border-radius: 5px;
     padding: 5px;
     border: 1px solid #111111;
     margin-bottom: 10px;
   }
   .atardecer{
-    background-color:   rgba(155, 36, 58, 0.507);
+    background-color:   rgba(153, 93, 104, 0.507);
     border-radius: 5px;
     padding: 5px;
     border: 1px solid #111111;
