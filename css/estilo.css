@@ -79,13 +79,14 @@ margin-bottom: 10px;
 }
 
 .sail {
-background-color: rgb(181, 204, 33);
+background-color: rgba(14, 14, 14, 0.439);
 margin: 70px;
 padding: 50px;
 text-align: center;
 border: 1px solid #000000;
 border-radius: 2px;
 }
+
 
 .sentro {
 text-align: center;
@@ -167,7 +168,19 @@ margin-top: 20px;
   transition-timing-function: ease;
   border: 1px solid #ffffff;
   padding: 15px;
+}
+
+ .white{
+color: #ffffff98;
+transition: 0.2s;
  }
+
+.white:hover{
+color: #ffffffe5;
+font-size: x-large;
+transition: 0.2s;
+}
+
 nav {
   background-color: rgb(67, 131, 214);
   text-align: center;
