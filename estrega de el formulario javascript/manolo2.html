@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> photonauar </title>
+    <meta name="description" content="la pagina web donde tus píxeles se haran realidad / por Jose Femenias Gallego">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="../icon/logo2.jpg">
+    <meta name="author" content="José Femenías Gallego">
+    <meta name="googlebot" content="index">
+    <meta name="robots" content="index,follow">
+    <meta name="keywords" content="cámara,lente,encuadre,foto,fotografia">
+    <script type="text/javascript" src="javascript/llavacript.js"></script>
+</head>
+<body>
+    <form action="#" method="get" name="registro" id="campo_registro">
+        <fieldset>
+            <p>Nombre de usuario:<input type="text" name="usuario" minlength="6" placeholder="(mín 6 caracteres)" requierd></p><br>
+            <p>Contraseña:<input type="password" name="contraseña1" minlength="8" placeholder="(mín 8 caracteres)" required></p><br>
+            <p>Repetir contraseña:<input type="password" name="contraseñarepetida" required></p><br>
+            <p id="sicoinciden"></p><br>
+            <p>Nombre y apellidos: <input type="text" name="nombre" ></p><br>
+            <p>comida favorita: <input type="text" name="apellido_1"  maxlength="25" ></p><br>
+            <p>Segundo apellido: <input type="text" name="apellido_2"  maxlength="25"></p><br>
+            <p>Fecha de nacimiento: <input type="date" name="birthday"></p><br>
+            <p>Correo electrónico: <input type="email" name="correo"></p><br>
+            <input type="button" value="Enviar" name="sendcontent" onclick="palabradepaso()">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+</body>
+</html>
